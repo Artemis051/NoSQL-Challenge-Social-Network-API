@@ -12,6 +12,22 @@ router.post('/', async (req, res) => {
         res.status(400).json({ message: error.message });
     }
 });
+// Update a user based on id
+router.put('/:id', async (req, res) => {
+    try {
+        const { id } = req.params;
+        const user = await User.findByIdAndUpdate(id, req.body, { new: true });
+
+        if (!user) {
+            return res.status(404).json({ message: 'User not found' });
+        }
+
+        res.json(user);
+    } catch (error) {
+        res.status(400).json({ message: error.message });
+    }
+});
+
 
 // GET all users
 router.get('/', async (req, res) => {
@@ -24,7 +40,7 @@ router.get('/', async (req, res) => {
 });
 
 // DELETE a user based on id
-router.delete('/users/:id', async (req, res) => {
+router.delete('/:id', async (req, res) => {
     try {
         const { id } = req.params;
         const user = await User.findByIdAndDelete(id);

@@ -12,10 +12,12 @@ mongoose.connect(process.env.MONGODB_URI)
 
 // routes
 const thoughtRoutes = require('./routes/thoughtRoutes');
-const userRoutes = require('./routes/userRoutes'); 
+const userRoutes = require('./routes/userRoutes');
 
-app.use('/api/thoughts', thoughtRoutes); 
-app.use('/api/users', userRoutes); 
+app.use('/api/thoughts', thoughtRoutes);
+app.use('/api/users', userRoutes);
+
+
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {

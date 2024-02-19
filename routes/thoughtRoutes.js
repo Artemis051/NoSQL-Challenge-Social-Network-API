@@ -25,6 +25,7 @@ router.get('/thoughts/:id', async (req, res) => {
 
 // post a new thought
 router.post('/thoughts', async (req, res) => {
+    console.log("POST request to /thoughts received", req.body);
     const thought = new Thought({
         text: req.body.text,
         username: req.body.username,

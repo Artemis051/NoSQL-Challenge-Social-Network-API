@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-// Reaction Schema
+// reaction schema
 const reactionSchema = new mongoose.Schema({
     reactionBody: {
         type: String,
