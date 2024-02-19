@@ -34,5 +34,5 @@ Adding, Updating, and Deleting Thoughts: https://drive.google.com/file/d/1pEpQY1
 Adding and Deleting Reactions: https://drive.google.com/file/d/1G9gtfJ-ckRJnZEVRMa1dKZInjDj4MY6s/view
 
 <img src="Screenshot 2024-02-18 at 10.23.57 PM.png">
-
+<img src="Screenshot 2024-02-18 at 10.28.56 PM.png">
 
