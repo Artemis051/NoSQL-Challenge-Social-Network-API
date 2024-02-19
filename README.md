@@ -26,8 +26,11 @@ This project is licensed under the MIT License.
 This demo is divided into parts:
 
 Adding, Updating, and Deleting Users: https://drive.google.com/file/d/1FSstKIyeSXuyHjogs-v8gzjUxr7JiU_7/view
+
 Adding and Deleting Friends: https://drive.google.com/file/d/15XiZPKL6it4_9syMLTBfJL1u5uP3ekdC/view
+
 Adding, Updating, and Deleting Thoughts: https://drive.google.com/file/d/1pEpQY1uO4N0yBfhPFz8w-Gf8NCkhwnVM/view
+
 Adding and Deleting Reactions: https://drive.google.com/file/d/1G9gtfJ-ckRJnZEVRMa1dKZInjDj4MY6s/view
 
 <img src="Screenshot 2024-02-18 at 10.23.57 PM.png">
